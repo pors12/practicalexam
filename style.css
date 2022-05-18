@@ -1,0 +1,104 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+}
+
+a{
+    color: blue;
+}
+
+li{
+    font-size: 40;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+h1,
+h2{
+    color: gray;
+}
+
+h3{
+    color: black;
+}
+
+td{
+    color: black;
+    padding: 5% 5%;
+}
+
+tr{
+    font-size: 20px;
+}
+
+th{
+    font-size: 30px;
+    padding: 5% 0;
+    justify-content: space-around;
+}
+
+.side-menu{
+    min-height: 80%;
+    width: 20%;
+    background-color: #f19256;
+    color: white;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 16px 10px 0 rgba(0, 0, 0, 0.19)
+}
+
+.side-menu .brandname{
+    align-items: center;
+}
+
+.side-menu .brandname li:hover{
+    background: #f19256;
+    color: white;
+}
+
+.title{
+    align-items: center;
+    color: black;
+}
+
+.title-2{
+    align-items: center;
+    color: black;
+}
+
+.container{
+    min-height: 90%;
+    width: 10%;
+    display: flex;
+    padding: 20% 30%;
+    align-items: center;
+}
+
+.container .content{
+    color: white;
+}
+
+.container .content .Cards{
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 16px 10px 0 rgba(0, 0, 0, 0.19);
+    height: max-content;
+}
+
+.container .content .Cards .card{
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 16px 10px 0 rgba(0, 0, 0, 0.19)
+}
+
+.side-menu .container .content-2{
+    padding: 20% 20%;
+    margin: 25% 45%;
+}
+.side-menu .container .content-2 .showrooms{
+    text-align: left;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
